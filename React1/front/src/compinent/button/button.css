@@ -1,0 +1,11 @@
+.button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.header__button {
+    background-color: green;
+}

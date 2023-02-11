@@ -1,4 +1,6 @@
 import './header.css'
+import '../../compinent/button/Button'
+import Button from '../../compinent/button/Button';
 
 function Header() {
     return (
@@ -17,6 +19,8 @@ function Header() {
                     </li>
                 </ul>
             </nav>
+            <Button text="Open" onClick={console.log('test')}/>
+            <Button className='header__button' text="Open (with add class)"/>
         </div>
     );
 }

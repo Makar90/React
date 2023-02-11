@@ -29,21 +29,26 @@ export default App;
 
 import Header from './common/header/Header';
 import Footer from './common//footer/Footer';
-
+import Button from './compinent/button/Button';
 import './style/main.css'
 
 function App() {
     return (
         <>
-            <p>APP</p>
-            <p>double Header + Footer within APP START</p>
+            {/* <p>APP</p>
+            <p>double Header + Footer within APP START</p> */}
             <Header />
-            <div className="main">
-                Main section
-            </div>
+
+            <section>
+                <h2> Section H2</h2>
+                <Button />
+                <Button text='Hello' />
+                <Button text='Go' />
+            </section>
+
             <Footer />
-            <p>double Header + Footer within APP END</p>
-            <p>APP</p>
+            {/* <p>double Header + Footer within APP END</p>
+            <p>APP</p> */}
         </>
 
     );

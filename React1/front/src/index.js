@@ -9,8 +9,8 @@ import ReactDOM from 'react-dom/client';
 
 
 import App from './App';
-import Header from './common/header/Header';
-import Footer from './common//footer/Footer';
+/* import Header from './common/header/Header';
+import Footer from './common//footer/Footer'; */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,9 +22,9 @@ root.render(
         </div> */}
 
 
-        <Header />
+        {/* <Header /> */}
         <App />
-        <Footer />
+        {/* <Footer /> */}
 
     </React.StrictMode>
 );
