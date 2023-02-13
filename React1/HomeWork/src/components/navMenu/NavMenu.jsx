@@ -14,14 +14,14 @@ function NavMenu(props){
 
     function getMenuList() {            
         if (props.menuStyleOrdered){
-            console.log('menuStyleOrdered');
+            //console.log('menuStyleOrdered');
             return (
                 <ol className={`menu__list ${props.classNameList || ""}`}>
                     {menuItems}
                 </ol>
             );
         }else {
-            console.log('- menuStyleOrdered');
+            //console.log('- menuStyleOrdered');
             return (
                 <ul className={`menu__list ${props.classNameList || ""}`}>
                     {menuItems}
