@@ -37,6 +37,9 @@ function Header(props){
                                 ]}
                     />
                 </div>
+                <a href="https://github.com/Makar90/React/tree/main/React1/HomeWork">
+                    GitHub
+                </a>
             </header>
     );
 }
