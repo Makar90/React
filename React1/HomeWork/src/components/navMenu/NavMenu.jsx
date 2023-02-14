@@ -2,6 +2,7 @@
 
 function NavMenu(props){
     
+    function getMenuItems(){
     let menuItems = props.menuItems.map(function(menuItem, menuIndex) {
         return (
             <li key={`${menuIndex}`} className={`menu__item ${props.classNameItem || ""}`}>
@@ -11,20 +12,22 @@ function NavMenu(props){
             </li>
             );
         });
+        return menuItems;
+    }
 
     function getMenuList() {            
         if (props.menuStyleOrdered){
             //console.log('menuStyleOrdered');
             return (
                 <ol className={`menu__list ${props.classNameList || ""}`}>
-                    {menuItems}
+                    {getMenuItems()}
                 </ol>
             );
         }else {
             //console.log('- menuStyleOrdered');
             return (
                 <ul className={`menu__list ${props.classNameList || ""}`}>
-                    {menuItems}
+                    {getMenuItems()}
                 </ul>
             );
         }
