@@ -1,4 +1,4 @@
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Header from './common/header/Header';
 
@@ -25,6 +25,18 @@ function App() {
                     <Route path='/blog' element={<Blog />} />
                     <Route path='/from-us' element={<FromUs />} />
                     <Route path='*' element={<h1>404</h1>} />
+                    {/* homework: 45 React: Routing start*/}
+                    <Route path='/blog/post1' element={<Blog post='post1' />} />
+                    <Route path='/blog/post2' element={<Blog post='post2' />} />
+                    <Route path='/blog/post3' element={<Blog post='post3' />} />
+                    <Route path='/blog/post4' element={<Blog post='post4' />} />
+                    <Route path='/blog/post5' element={<Blog post='post5' />} />
+                    <Route path='/blog/post6' element={<Blog post='post6' />} />
+                    <Route path='/blog/post7' element={<Blog post='post7' />} />
+                    <Route path='/blog/post8' element={<Blog post='post8' />} />
+                    <Route path='/blog/post9' element={<Blog post='post9' />} />
+                    <Route path='/blog/post10' element={<Blog post='post10' />} />
+                    {/* homework: 45 React: Routing end*/}
                 </Routes>
                 <Article />
             </main>

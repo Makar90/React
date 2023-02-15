@@ -1,6 +1,6 @@
 * {
-    /* padding: 0;
-    margin: 0; */
+    /* padding: 0px;
+    margin: 0px; */
     box-sizing: border-box;
 }
 
@@ -11,8 +11,9 @@
 main {
     background-color: aqua;
     display: flex;
+    gap: 20px;
 }
 
 .page {
-    width: 10%;
+    width: 20%;
 }

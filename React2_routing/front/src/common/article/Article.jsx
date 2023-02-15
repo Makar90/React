@@ -1,6 +1,8 @@
+import './index.css'
+
 function Article(){
     return(
-        <article>
+        <article className='article'>
             <h2>Article</h2>
         </article>
     );
