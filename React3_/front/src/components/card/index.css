@@ -1,4 +1,4 @@
-.card {
+.userCard {
     margin-top: 10px;
     padding: 10px;
     border: solid 1px black;
@@ -6,6 +6,9 @@
     width: 50%;
 }
 
-.card p {
+.userCard__age {}
+
+.userCard__description {
     font-style: italic;
+    text-align: center;
 }

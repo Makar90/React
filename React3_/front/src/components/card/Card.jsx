@@ -1,35 +1,31 @@
-import {Users} from '../../data/user/Users';
 import './index.css'
 
-const UsersCard = Users.map(item=>(
-    <div key={item} className='card'>
-        <h2>{item.name}</h2>
-        <p>{item.description}</p>
-        <img class="fit-picture"
-            src={item.img}
-            alt={item.description}
-            width='200'/>
-    </div>
-    
-)); 
-
-{console.log(Users)}
-
-
 export function Card(props){
+    const UsersCard = props.Users.map(item=>(
+        //item.age>=props.ageFilter &&(
+            <div key={item.id} 
+                className='userCard'
+                >
+                <h2 className='userCard__name'>
+                    {item.name}
+                </h2>
+                <p className='userCard__age'>
+                    {item.age} years old
+                </p>
+                <p className='userCard__description'>
+                    {item.description}
+                </p>
+                <img className="fit-userCard__image"
+                    src={item.img}
+                    alt={item.description}
+                    width='200'
+                />            
+            </div> 
+        //) 
+    ));
     return(
         <>
             {UsersCard}
-        </>
-       /*  <> 
-        <div key={props.key} className='card'>
-            <h2>{props.item.name}</h2>
-            <p>{item.description}</p>
-            <img class="fit-picture"
-                src={item.img}
-                alt={item.description}
-                width='200'/>
-        </div>
-        </> */
+        </> 
     );
 }
