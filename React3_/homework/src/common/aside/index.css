@@ -1,0 +1,23 @@
+.aside__container {
+    padding: 20px 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside__item {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+
+.aside__item:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.aside__item-icon {
+    width: 15px;
+    height: 15px;
+}

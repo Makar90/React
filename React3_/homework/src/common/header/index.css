@@ -1,0 +1,46 @@
+.header {
+    background-color: blue;
+    box-shadow: 0px 1px 10px black;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__actionsMenu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 55px;
+}
+
+.header__icon {
+    width: 30px;
+    height: 30px;
+
+}
+
+.header__menuIcon {
+    color: white;
+}
+
+.header__refreshIcon {
+    color: white;
+    transform: rotate(180deg);
+}
+
+.header__refreshIcon {
+    color: white;
+    transform: rotate(180deg);
+}
+
+.header__userIcon {
+    color: rgb(0, 0, 255);
+    border-radius: 15px;
+}
+
+.header__icon:hover {
+    cursor: pointer;
+}

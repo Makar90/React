@@ -1,0 +1,46 @@
+.chapterButton {
+    width: 22%;
+    background-color: rgba(128, 128, 128, 0.338);
+    border-radius: 10px;
+    padding: 15px 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+    border-bottom: 1px solid black;
+}
+
+.chapterButton__iconTable {
+    position: absolute;
+    top: -20%;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    align-self: self-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapterButton__icon {
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.chapterButton__iconTable svg {
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.chapterButton__title {
+    color: gray;
+    font-size: 90%;
+}
+
+.chapterButton__content {
+    font-weight: 600;
+    font-size: 110%;
+}

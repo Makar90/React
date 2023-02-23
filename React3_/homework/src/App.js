@@ -1,8 +1,19 @@
+import { UsersBase } from "./data/users/Users";
+import './styles.css';
+
+import Header from './common/header/Header';
+import Main from './common/main/Main';
+
+
+console.log(UsersBase);
 
 
 function App() {
     return (
-        <h1>TEST</h1>
+        <>
+            <Header title='Posters catalog' />
+            <Main />
+        </>
     );
 }
 
