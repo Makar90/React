@@ -10,4 +10,10 @@
     flex-direction: column;
 }
 
-.contaiainer {}
+.container {
+    min-width: 670px;
+}
+
+h3 {
+    color: white;
+}
